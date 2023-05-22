@@ -13,11 +13,11 @@ happy_new_year()
 
 def square_integers(int_list):
     # code goes here!
-    for i in int_list:
-        int_list = i ** 2
-        print (int_list)
-    pass
-print(square_integers([1, 2, 3, 4, 5]))
+    return [num ** 2 for num in int_list]
+int_list =[1, 2, 3, 4, 5]        
+result = square_integers (int_list)       
+print(result)
+
 
 
 
